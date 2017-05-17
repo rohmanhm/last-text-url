@@ -1,0 +1,33 @@
+{
+  "name": "last-text-url",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "devDependencies": {
+    "@types/jest": "^19.2.3",
+    "jest": "^20.0.1",
+    "jest-cli": "^20.0.1",
+    "ts-jest": "^20.0.3",
+    "typescript": "^2.3.2"
+  },
+  "jest": {
+    "verbose": true,
+    "globals": {
+      "__TS_CONFIG__": "tsconfig.json"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
+    },
+    "testMatch": [
+      "**/test/**/*.test.(ts|js)"
+    ],
+    "testEnvironment": "node"
+  }
+}
