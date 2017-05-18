@@ -30,6 +30,6 @@
     "testMatch": [
       "**/test/**/*.test.(ts|js)"
     ],
-    "testEnvironment": "node"
+    "testEnvironment": "jsdom"
   }
 }

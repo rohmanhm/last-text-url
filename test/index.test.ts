@@ -1,4 +1,4 @@
-import * as LastTextURL from '../dist'
+import LastTextURL = require('../dist')
 
 describe('Last Text URL', () => {
   test('Should get last text from URL', () => {
